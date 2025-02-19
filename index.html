@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solo Project</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/478bd2c4ff.js" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</head>
+
+
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="row nav_row">
+      <figure class="nav__img__wrapper">
+        <img src="asset/logo.png" alt="" class="logo_img">
+      </figure>
+      <div class="all_links">
+        <a href="#" class="nav_link">Home</a>
+        <a href="#" class="nav_link">About</a>
+        <a href="#" class="nav_link">Vehicle Models</a>
+        <a href="#" class="nav_link">Testimonial</a>
+        <a href="#" class="nav_link">Our Team</a>
+        <a href="#" class="nav_link">Contact US</a>
+      </div>
+      <div class="nav_btn">
+        <a href="#" class="nav_btn_link">Sign In</a>
+        <button class="nav_btn_button">Register</button>
+      </div>
+      <button class="nav_menu" onclick="openMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Navigation Click -->
+  <nav class="menus">
+    <button class="menu_close" onclick="closeMenu()">
+      <i class="fa-solid fa-x"></i>
+    </button>
+    <div class="menu_links">
+      <a href="#" class="menu_link" onclick="closeMenu()">Home</a>
+      <a href="#" class="menu_link" onclick="closeMenu()">About</a>
+      <a href="#" class="menu_link" onclick="closeMenu()">Vehicle Models</a>
+      <a href="#" class="menu_link" onclick="closeMenu()">Testimonial</a>
+      <a href="#" class="menu_link" onclick="closeMenu()">Our Team</a>
+      <a href="#" class="menu_link" onclick="closeMenu()">Contact US</a>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <img src="asset/header-bg.png" alt="" class="header_bg">
+      <div class="row header_row">
+        <div class="header_text">
+          <div class="header_text_subtitle">Plan your trip now
+          </div>
+          <h4 class="header_text_title">Save <span class="color-primary">big</span> with our car rental
+          </h4>
+          <p class="header_text_para">
+            Rent the car of your dreams. Unbeatable prices, unlimited miles, flexible pick-up options and much more.
+          </p>
+          <div class="header_text_btns">
+            <button class="header_text_btn header_text_book">
+              <span class="header_text_btn_span">Book Now</span>
+              <i class="fa-regular fa-circle-check header__text__btn__icon"></i>
+            </button>
+
+            <button class="header_text_btn header_text_learn">
+              <span class="header_text_btn_span">Learn More</span>
+              <i class="fa-solid fa-angle-right header__text__btn__icon"></i>
+            </button>
+          </div>
+        </div>
+        <figure class="header_img_wrapper">
+          <img src="asset/header-car.png" alt="" class="header_img">
+        </figure>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <!-- Services -->
+    <section id="services">
+      <div class="container">
+        <div class="row services_row">
+          <div class="services_header_subtitle">
+            Plan your trip now
+          </div>
+          <h4 class="services_header_title">
+            Quick and easy car rental
+          </h4>
+          <div class="features_list">
+            <div class="features">
+              <div class="services_img_wrapper">
+                <img src="asset/feature-1.png" alt="" class="feature1_img">
+                <h4 class="feature_title">Select car</h4>
+                <p class="feature_para">
+                  We offers a big range of vehicles for all your driving needs. We have the perfect car to meet your
+                  needs
+                </p>
+              </div>
+            </div>
+            <div class="features">
+              <div class="services_img_wrapper">
+                <img src="asset/feature-2.png" alt="" class="feature1_img">
+                <h4 class="feature_title">Contact Operator</h4>
+                <p class="feature_para">
+                  Our knowledgeable and friendly operators are always ready to help with any questions or concerns
+                </p>
+              </div>
+            </div>
+            <div class="features">
+              <div class="services_img_wrapper">
+                <img src="asset/feature-3.png" alt="" class="feature1_img">
+                <h4 class="feature_title">Let's Drive</h4>
+                <p class="feature_para">
+                  Whether you're hitting the open road, we've got you covered with our wide range of cars
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+    <!-- Banner -->
+    <section id="banner">
+      <div class="container">
+        <div class="row banner_row">
+          <h1 class="banner_header_title">
+            Save big with our cheap car rental!
+          </h1>
+          <p class="banner_header_para">
+            Top Airports. Local Suppliers. <span class="specific">24/7</span> Support.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Choose -->
+    <section id="choose">
+      <div class="container">
+        <div class="row choose_row">
+          <figure class="choose_img_wrapper">
+            <img src="asset/choose-car.png" alt="" class="choose_car">
+          </figure>
+          <div class="choose_content">
+            <div class="choose_text">
+              <h3 class="choose_text_subtitle">
+                Why Choose Us
+              </h3>
+              <h1 class="choose_text_title">
+                Best valued deals you will ever find
+              </h1>
+              <p class="choose_text_para">
+                Discover the best deals you'll ever find with our unbeatable offers. We're dedicated to providing you
+                with the best value for your money,
+                so you can enjoy top-quality services and products without breaking the bank. Our deals are designed to
+                give you the ultimate renting experience,
+                so don't miss out on your chance to save big.
+              </p>
+              <button class="choose_text_btn_detail">
+                <span class="choose_text_btn_span">Find Detail</span>
+                <i class="fa-solid fa-angle-right choose__detail__btn__icon"></i>
+            </div>
+            <div class="feature_content">
+              <div class="choose_feature">
+                <figure class="choose_feature_1">
+                  <img src="asset/choose-1.png" alt="" class="choose__feature__img">
+                </figure>
+                <div class="choose_features_text">
+                  <h4 class="choose_features_text_title">
+                    Cross Country Drive
+                  </h4>
+                  <p class="choose_features_text_para">
+                    Take your driving experience to the next level with our top-notch vehicles for your cross-country
+                    adventures.
+                  </p>
+                </div>
+              </div>
+              <div class="choose_feature">
+                <figure class="choose_feature_2">
+                  <img src="asset/choose-2.png" alt="" class="choose__feature__img">
+                </figure>
+                <div class="choose_features_text">
+                  <h4 class="choose_features_text_title">
+                    All Inclusive Pricing
+                  </h4>
+                  <p class="choose_features_text_para">
+                    Get everything you need in one convenient, transparent price with our all-inclusive pricing policy.
+                  </p>
+                </div>
+              </div>
+              <div class="choose_feature">
+                <figure class="choose_feature_3">
+                  <img src="asset/choose-3.png" alt="" class="choose__feature__img">
+                </figure>
+                <div class="choose_features_text">
+                  <h4 class="choose_features_text_title">
+                    No Hidden Charges
+                  </h4>
+                  <p class="choose_features_text_para">
+                    Enjoy peace of mind with our no hidden charges policy. We believe in transparent and honest pricing.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial -->
+    <section id="testimonials">
+      <div class="container">
+        <div class="row testimonial_row">
+          <h3 class="testimonial_subtitle">
+            Reviewed by People
+          </h3>
+          <h2 class="testimonial_title">
+            Client's Testimonials
+          </h2>
+          <p class="testimonial_para">
+            Discover the positive impact we've made on the our clients by reading through their testimonials. Our
+            clients have experienced our service and results, and they're eager to share their positive experiences with
+            you.
+          </p>
+          <div class="testimonial_list">
+            <div class="testimonial">
+              <p class="testimonial_review">
+                "We rented a car from this website and had an amazing experience! The booking was easy and the rental
+                rates were very affordable. "
+              </p>
+              <div class="testimonial_infor">
+                <figure class="testimonial_img_wrapper">
+                  <img src="asset/testimonial-1.jpg" alt="" class="testimonial_img_profile">
+                </figure>
+                <div class="testimonial_infor_profile">
+                  <h4 class="testimonial_name">Harry Potter</h4>
+                  <h5 class="testimonial_location">Belgium</h5>
+                  <i class="fa-solid fa-quote-right testimonial__info__icon" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial">
+              <p class="testimonial_review">
+                "We rented a car from this website and had an amazing experience! The booking was easy and the rental
+                rates were very affordable. "
+              </p>
+              <div class="testimonial_infor">
+                <figure class="testimonial_img_wrapper">
+                  <img src="asset/testimonial-2.jpg" alt="" class="testimonial_img_profile">
+                </figure>
+                <div class="testimonial_infor_profile">
+                  <h4 class="testimonial_name">Ron Rizzly</h4>
+                  <h5 class="testimonial_location">Novi Sad</h5>
+                  <i class="fa-solid fa-quote-right testimonial__info__icon" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Download -->
+    <section id="download">
+      <div class="container">
+        <div class="row download_row">
+          <div class="download_text">
+            <h2 class="download_text_title">
+              Download our app to get most out of it
+            </h2>
+            <p class="download_text_para">
+              Thrown shy denote ten ladies though ask saw. Or by to he going think order event music. Incommode so
+              intention defective at convinced. Led income months itself and houses you.
+            </p>
+            <div class="download_link">
+              <img src="asset/google-play.svg" alt="" class="download_img_wrapper">
+              <img src="asset/download.png" alt="" class="download_img_wrapper">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row footer_row">
+        <div class="footer_intro footer_content">
+          <h4 class="footer_intro_title">
+            <b>CAR</b> Rental
+          </h4>
+          <p class="footer_intro_para">
+            We offer a big range of vehicles for all your driving needs. We have the perfect car to meet your needs.
+          </p>
+          <div class="footer_intro_links">
+            <a href="tel:123456789" class="footer_intro_link">
+              <i class="fa-solid fa-phone footer_intro_link_icon" aria-hidden="true"></i>
+              <span class="footer_intro_link_span">
+                (123) -456-789
+              </span>
+            </a>
+            <a href="mailto:carrental@gmail.com" class="footer_intro_link">
+              <i class="fa-solid fa-envelope footer_intro_link_icon" aria-hidden="true"></i>
+              <span class="footer_intro_link_span">
+                carrental@gmail.com
+              </span>
+            </a>
+            <a href="https://xpeedstudio.com/" class="footer_intro_link">
+              Design by Thinh Pham
+            </a>
+          </div>
+        </div>
+        <div class="footer_company footer_content">
+          <h4 class="footer_company_title">
+            Company
+          </h4>
+          <div class="footer_company_links">
+            <a href="#" class="footer_company_link">
+              New York
+            </a>
+            <a href="#" class="footer_company_link">
+              Careers
+            </a>
+            <a href="#" class="footer_company_link">
+              Mobile
+            </a>
+            <a href="#" class="footer_company_link">
+              Blog
+            </a>
+            <a href="#" class="footer_company_link">
+              How we work
+            </a>
+          </div>
+        </div>
+        <div class="footer_hours footer_content">
+          <h4 class="footer_hours_title">
+            Working hours
+          </h4>
+          <div class="footer_hours_list">
+            <span class="footer_hours_time">
+              Mon - Fri: 9:00AM - 9:00PM
+            </span>
+            <span class="footer_hours_time">
+              Sat: 9:00AM - 19:00PM
+            </span>
+            <span class="footer_hours_time">
+              Sun: Closed
+            </span>
+          </div>
+        </div>
+        <div class="footer_email footer_content">
+          <h4 class="footer_email_title">
+            Subscription
+          </h4>
+          <p class="footer_email_para">
+            Subscribe your Email address for latest news &amp; updates.
+          </p>
+          <form action="#" class="footer_email_form">
+            <input type="email" placeholder="Enter Email Address" class="footer_email_form_input">
+            <button class="footer_email_form_submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
